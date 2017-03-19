@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FHNavigationController_Example' do
+  pod 'FHNavigationController', :path => '../'
+
+  target 'FHNavigationController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
