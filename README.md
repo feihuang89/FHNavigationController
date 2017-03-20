@@ -1,2 +1,0 @@
-# FHNavigationController
-自定义导航栏，支持全屏滑动返回，分类实现配置导航栏左右按钮以及title样式
