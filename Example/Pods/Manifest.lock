@@ -1,0 +1,16 @@
+PODS:
+  - FHNavigationController (0.1.0)
+
+DEPENDENCIES:
+  - FHNavigationController (from `../`)
+
+EXTERNAL SOURCES:
+  FHNavigationController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FHNavigationController: 9978966cde017df1cd9d460fed2b541e006ba22f
+
+PODFILE CHECKSUM: d785b26f55e750f5500819d8b0f23ce0ea8cc161
+
+COCOAPODS: 1.1.1

@@ -24,6 +24,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		94ACD9C2962115A2955C1987 /* Pods_FHNavigationController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC22A594136CD603E7A1639D /* Pods_FHNavigationController_Tests.framework */; };
 		98D27E720E0E5F02D54D7464 /* Pods_FHNavigationController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15FF2F8BA239F1DBEA9BFBC /* Pods_FHNavigationController_Example.framework */; };
+		C0BA1C9C1E7EAB1900C28B2D /* FHFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BA1C9B1E7EAB1900C28B2D /* FHFirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16165B454D5FCD85123B6C68 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		589A2B1A49DD44AA643B31DB /* FHNavigationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FHNavigationController.podspec; path = ../FHNavigationController.podspec; sourceTree = "<group>"; };
+		16165B454D5FCD85123B6C68 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		589A2B1A49DD44AA643B31DB /* FHNavigationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FHNavigationController.podspec; path = ../FHNavigationController.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FHNavigationController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHNavigationController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,10 +59,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		64E85EDE09035194ABE2B728 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		64E85EDE09035194ABE2B728 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8080D9DBE763708BCC2C3ED /* Pods-FHNavigationController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FHNavigationController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FHNavigationController_Example/Pods-FHNavigationController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C0BA1C9A1E7EAB1900C28B2D /* FHFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHFirstViewController.h; sourceTree = "<group>"; };
+		C0BA1C9B1E7EAB1900C28B2D /* FHFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHFirstViewController.m; sourceTree = "<group>"; };
 		C995C36DFFF44D4DD97B673F /* Pods-FHNavigationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FHNavigationController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FHNavigationController_Tests/Pods-FHNavigationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D15FF2F8BA239F1DBEA9BFBC /* Pods_FHNavigationController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FHNavigationController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23F1837802306D71B101358 /* Pods-FHNavigationController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FHNavigationController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FHNavigationController_Example/Pods-FHNavigationController_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* FHViewController.h */,
 				6003F5A6195388D20070C39A /* FHViewController.m */,
+				C0BA1C9A1E7EAB1900C28B2D /* FHFirstViewController.h */,
+				C0BA1C9B1E7EAB1900C28B2D /* FHFirstViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -397,6 +402,7 @@
 				6003F59E195388D20070C39A /* FHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				C0BA1C9C1E7EAB1900C28B2D /* FHFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

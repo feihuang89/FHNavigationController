@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FHNavigationController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FHNavigationController.'
+  s.summary          = '自定义导航栏，支持全屏滑动返回，分类实现配置导航栏左右按钮以及title样式'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    自定义导航栏，支持每个控制器单独配置全屏返回，并设置左右按钮的样式以及title的样式
                        DESC
 
   s.homepage         = 'https://github.com/Africa802916/FHNavigationController'

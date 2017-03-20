@@ -7,6 +7,7 @@
 //
 
 #import "FHViewController.h"
+#import "FHFirstViewController.h"
 
 @interface FHViewController ()
 
@@ -17,7 +18,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    self.view.backgroundColor = [UIColor orangeColor];
+    self.title = @"VC1";
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Next" style:UIBarButtonItemStylePlain target:self action:@selector(next:)];
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+}
+
+- (void)next:(UIBarButtonItem *)barButtonItem
+{
+    FHFirstViewController *firstVC = [[FHFirstViewController alloc] init];
+    [self.navigationController pushViewController:firstVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

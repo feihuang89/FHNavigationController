@@ -7,12 +7,20 @@
 //
 
 #import "FHAppDelegate.h"
-
+#import <FHNavigationController/FHNavigationController.h>
+#import "FHViewController.h"
 @implementation FHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    
+    FHViewController *mainVC = [[FHViewController alloc] init];
+    
+    FHNavigationController *nav = [[FHNavigationController alloc] initWithRootViewController:mainVC];
+    self.window.rootViewController = nav;
+    
     return YES;
 }
 
